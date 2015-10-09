@@ -1,35 +1,69 @@
 * {
-	font-family: "Courier"
+	font-family: "Courier";
+	margin: 0;
 }
 
-body {
-	background-color: blue;
+html {
+	height: 100%;
+	background: url("http://fotonin.com/data_images/out/14/882704-san-francisco-wallpaper.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	position: relative;
+}
+
+#container {
+	min-height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
 }
 
 #header {
-	background-color: white;
+	background-color: black;
+	color: white 
 	margin-top: none;
+	height: 200px;
+	width: 100%;
+	opacity: 0.6;
 }
 
 h1 {
-	color : #ccc;
+	color : white;
 	font-size: 5em;
 	font-weight: 400;
 	letter-spacing: 0;
 	line-height: 1.5em;
-	text-align: center;
+	text-align: left;
 	word-spacing: 0;
 }
 
 h3 {
+	color: white;
 	font-size:4em;
+	font-weight: 400;
 	line-height:0.8em;
-	text-align:center;
+	text-align:left;
 }
 
+body {
+
+}
+
+.push {
+	height: 50px; /* .push must be the same height as .footer */
+}
 
 #footer {
 	text-align:center;
+	background: black;
+	color: white;
+    line-height: 20px;
+    min-width: 100%;
+    bottom: 0;
+    position: absolute;
+    display: block;
+    height: 50px; /* .push must be the same height as .footer */
+    opacity: 0.6;
 }
 
 button {
