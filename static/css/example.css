@@ -1,0 +1,39 @@
+* {
+	font-family: "Courier"
+}
+
+body {
+	background-color: blue;
+}
+
+#header {
+	background-color: white;
+	margin-top: none;
+}
+
+h1 {
+	color : #ccc;
+	font-size: 5em;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	text-align: center;
+	word-spacing: 0;
+}
+
+h3 {
+	font-size:4em;
+	line-height:0.8em;
+	text-align:center;
+}
+
+
+#footer {
+	text-align:center;
+}
+
+button {
+	margin-left:auto;
+	margin-right:auto;
+}
+
