@@ -1,6 +1,5 @@
 * {
 	font-family: "Courier";
-	margin: 0;
 }
 
 html {
@@ -13,14 +12,57 @@ html {
   	position: relative;
 }
 
-#header {
+body {
 	background-color: black;
+	opacity: 0.8;
+	margin: 0;
+}
+
+#nav {
+	height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 10px;
+    float: right;
+}
+
+li {
+    float: left;
+    border-left: 1px solid white; 
+    transition: .5s;
+}
+
+ul li:last-child {  
+	border-right: 1px solid white; 
+}
+
+a {
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+li:hover{
+	opacity: 0.5;
+}
+
+#header {
 	color: white;
-	margin: auto;
-	height: 200px;
-	width: 96%;
-	opacity: .7;
-	position: relative;
+	height: 120px;
+	margin: 10px;
+}
+
+.img_wrapper {
+	text-align: right;
+}
+
+#profpic {
+	width: 20%;
 }
 
 h1 {
@@ -29,61 +71,18 @@ h1 {
 	font-weight: 400;
 	letter-spacing: 0;
 	line-height: 1.5em;
-	text-align: left;
+	text-align: center;
 	word-spacing: 0;
-	margin-left: 10px;
-}
-
-h3 {
-	color: white;
-	font-size:4em;
-	font-weight: 400;
-	line-height:0.8em;
-	text-align:left;
-	margin-left: 10px;
-}
-
-#nav {
-	margin: 20px 20px;
-	background-color: black;
-    opacity: 0.7;
-    width: 96%;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-li {
-    float: left;
-    border: 1px solid white; /*temp*/
-}
-
-a {
-    display: block;
-    width: 100px;
-    font-style: none;
-    color: white;
 }
 
 #body {
 	color: white;
-	background-color: black;
-	opacity: 0.7;
-	margin: 20px;
+	margin: 10px;
+	text-align: center;
 }
 
-p {
-	margin: auto;
-}
 
 button {
-	margin-left:auto;
-	margin-right:auto;
+	margin-bottom: 10px;
 }
 
