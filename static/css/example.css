@@ -1,11 +1,10 @@
 * {
 	font-family: "Courier";
-	margin: 0;
 }
 
 html {
 	height: 100%;
-	background: url("http://fotonin.com/data_images/out/14/882704-san-francisco-wallpaper.jpg") no-repeat center center fixed; 
+	background: url(http://imagine.pics/images/683/68359.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -13,18 +12,57 @@ html {
   	position: relative;
 }
 
-#container {
-	min-height: 100%;
-	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+body {
+	background-color: black;
+	opacity: 0.8;
+	margin: 0;
+}
+
+#nav {
+	height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 10px;
+    float: right;
+}
+
+li {
+    float: left;
+    border-left: 1px solid white; 
+}
+
+ul li:last-child {  
+	border-right: 1px solid white; 
+}
+
+a {
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    transition: .5s;
+}
+
+a:hover{
+	opacity: 0.5;
 }
 
 #header {
-	background-color: black;
-	color: white 
-	margin-top: none;
-	height: 200px;
-	width: 100%;
-	opacity: 0.6;
+	color: white;
+	height: 120px;
+	margin: 10px;
+}
+
+.img_wrapper {
+	text-align: right;
+}
+
+#profpic {
+	width: 20%;
 }
 
 h1 {
@@ -33,41 +71,18 @@ h1 {
 	font-weight: 400;
 	letter-spacing: 0;
 	line-height: 1.5em;
-	text-align: left;
+	text-align: center;
 	word-spacing: 0;
 }
 
-h3 {
+#body {
 	color: white;
-	font-size:4em;
-	font-weight: 400;
-	line-height:0.8em;
-	text-align:left;
+	margin: 10px;
+	text-align: center;
 }
 
-body {
-
-}
-
-.push {
-	height: 50px; /* .push must be the same height as .footer */
-}
-
-#footer {
-	text-align:center;
-	background: black;
-	color: white;
-    line-height: 20px;
-    min-width: 100%;
-    bottom: 0;
-    position: absolute;
-    display: block;
-    height: 50px; /* .push must be the same height as .footer */
-    opacity: 0.6;
-}
 
 button {
-	margin-left:auto;
-	margin-right:auto;
+	margin-bottom: 10px;
 }
 
