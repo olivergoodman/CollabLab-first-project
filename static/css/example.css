@@ -5,17 +5,12 @@
 
 html {
 	height: 100%;
-	background: url("http://fotonin.com/data_images/out/14/882704-san-francisco-wallpaper.jpg") no-repeat center center fixed; 
+	background: url(http://imagine.pics/images/683/68359.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
   	position: relative;
-}
-
-#container {
-	min-height: 100%;
-	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
 }
 
 #header {
@@ -25,7 +20,7 @@ html {
 	margin-bottom: 10px;
 	height: 200px;
 	width: 100%;
-	opacity: 0.6;
+	opacity: .7;
 	position: relative;
 }
 
@@ -50,30 +45,44 @@ h3 {
 }
 
 #nav {
-	background-color: green;
+	margin-bottom: 10px;
+	background-color: black;
+    opacity: 0.7;
 }
 
-body {
-	color: white;
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-.push {
-	height: 50px; /* .push must be the same height as .footer */
+li {
+    float: left;
+    border: 1px solid white; /*temp*/
 }
 
-#footer {
-	text-align:center;
-	background: black;
-	color: white;
-    line-height: 20px;
-    min-width: 100%;
-    bottom: 0;
-    position: absolute;
+a {
     display: block;
-    height: 50px; /* .push must be the same height as .footer */
-    opacity: 0.6;
+    width: 100px;
+
+    font-style: none;
+    color: white;
 }
+
+
+#body {
+	color: white;
+	background-color: black;
+	opacity: 0.7;
+}
+
+p {
+	margin-left: 10px;
+}
+
 
 button {
 	margin-left:auto;
