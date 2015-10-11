@@ -16,10 +16,9 @@ html {
 #header {
 	background-color: black;
 	color: white;
-	margin-top: none;
-	margin-bottom: 10px;
+	margin: auto;
 	height: 200px;
-	width: 100%;
+	width: 96%;
 	opacity: .7;
 	position: relative;
 }
@@ -45,9 +44,10 @@ h3 {
 }
 
 #nav {
-	margin-bottom: 10px;
+	margin: 20px 20px;
 	background-color: black;
     opacity: 0.7;
+    width: 96%;
 }
 
 ul {
@@ -67,22 +67,20 @@ li {
 a {
     display: block;
     width: 100px;
-
     font-style: none;
     color: white;
 }
-
 
 #body {
 	color: white;
 	background-color: black;
 	opacity: 0.7;
+	margin: 20px;
 }
 
 p {
-	margin-left: 10px;
+	margin: auto;
 }
-
 
 button {
 	margin-left:auto;
