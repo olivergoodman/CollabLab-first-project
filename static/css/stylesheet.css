@@ -54,12 +54,6 @@ a:hover{
     display: none
 }
 
-#header {
-	color: white;
-	height: 120px;
-	margin: 10px;
-}
-
 div.slideL, div.slideR{
 	position:relative;
 }
@@ -70,6 +64,12 @@ div.slideL, div.slideR{
 	margin-right: -300px;
 }
 
+#header {
+	color: white;
+	height: 120px;
+	margin: 10px;
+}
+
 h1 {
 	color : white;
 	font-size: 5em;
@@ -78,6 +78,7 @@ h1 {
 	line-height: 1.5em;
 	text-align: center;
 	word-spacing: 0;
+	margin-left: 0px; /*change left margin and alignment for sliding*/
 }
 
 #body {
