@@ -13,8 +13,18 @@ html {
 }
 
 body {
-	background-color:rgba(0,0,0,0.5);
+	/*background-color:rgba(0,0,0,0.5);*/
 	margin: 0;
+	height: 100%;
+}
+
+.transparent{
+	background:rgba(0,0,0,0.5);;
+}
+
+.transparent-short{ /*for pages that don't scroll*/
+	background:rgba(0,0,0,0.5);
+	height: 100%;
 }
 
 #nav {
@@ -49,7 +59,6 @@ body {
 #nav a:hover{
 	opacity: 0.5;
 }
-
 
 div.slideL, div.slideR{
 	position:relative;
